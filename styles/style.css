@@ -111,3 +111,14 @@ footer {
     }
 
   }
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flower {
+    box-shadow: var(--shadow);
+}
