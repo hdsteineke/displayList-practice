@@ -143,3 +143,12 @@ footer {
     display: flex;
     flex-direction: row;
 }
+
+.musician-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.musician {
+    box-shadow: var(--shadow);
+}

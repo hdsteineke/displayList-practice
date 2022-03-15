@@ -27,9 +27,6 @@ for (let book of books) {
     bookListEl.append(bookEl);
 }
 
-console.log(snacks);
-console.log(snackListEl);
-
 for (let snack of snacks) {
     const snackEl = renderSnack(snack);
 
