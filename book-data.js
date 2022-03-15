@@ -27,7 +27,7 @@ export const books = [
     },
 
     {
-        title: 'Plant Intelligence and the Imaginal Realm',
+        title: 'Plant Intelligence',
         year: 2014,
         author: {
             name: 'Stephen Harrod Buhner',

@@ -7,6 +7,9 @@ import { books } from './book-data.js';
 
 // initialize global state
 const flowerListEl = document.querySelector('.flower-container');
+const bookListEl = document.querySelector('.book-container');
+
+
 for (let flower of flowers) {
     const flowerEl = renderFlowerEl(flower);
 
@@ -16,6 +19,11 @@ for (let flower of flowers) {
 
 
 
+for (let book of books) {
+    const bookEl = renderBook(book);
+
+    bookListEl.append(bookEl);
+}
 // set event listeners 
   // get user input
   // use user input to update state 

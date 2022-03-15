@@ -30,6 +30,7 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
+
 section {
     background-color: var(--color5);
     width: 1000px;
@@ -113,9 +114,7 @@ footer {
   }
 
 .flower-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 
 }
 
@@ -125,9 +124,8 @@ footer {
 }
 
 .book-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    
 }
 
 .book {
