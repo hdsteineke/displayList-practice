@@ -1,20 +1,20 @@
 export const flowers = [
     {
-        name: 'lilac',
+        name: 'Lilac',
         latin_name: 'Syringa vulgaris',
         color: 'purple, white',
     
     },
 
     {
-        name: 'dogwood',
+        name: 'Dogwood',
         latin: 'Cornus florida',
         color: 'white, pink'
 
     },
 
     {
-        name: 'magnolia',
+        name: 'Magnolia',
         latin: 'Magnolia x soulangeana',
         color: 'white and pink'
 
