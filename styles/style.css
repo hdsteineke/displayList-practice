@@ -114,7 +114,8 @@ footer {
   }
 
 .flower-container {
-
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -124,10 +125,21 @@ footer {
 }
 
 .book-container {
+    display: flex;
+    flex-direction: row;
 
     
 }
 
 .book {
     box-shadow: var(--shadow);
+}
+
+.snack {
+    box-shadow: var(--shadow);
+}
+
+.snack-container {
+    display: flex;
+    flex-direction: row;
 }
