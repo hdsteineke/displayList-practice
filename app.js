@@ -2,6 +2,9 @@
 import { renderFlowerEl } from './render-flower.js';
 import { flowers } from './flower-data.js';
 
+import { renderBook } from './render-book.js';
+import { books } from './book-data.js';
+
 // initialize global state
 const flowerListEl = document.querySelector('.flower-container');
 for (let flower of flowers) {
@@ -9,6 +12,9 @@ for (let flower of flowers) {
 
     flowerListEl.append(flowerEl);
 }
+
+
+
 
 // set event listeners 
   // get user input

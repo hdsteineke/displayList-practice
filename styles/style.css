@@ -123,3 +123,13 @@ footer {
     
     box-shadow: var(--shadow);
 }
+
+.book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book {
+    box-shadow: var(--shadow);
+}
