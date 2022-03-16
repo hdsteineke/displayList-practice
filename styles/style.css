@@ -151,4 +151,8 @@ footer {
 
 .musician {
     box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }

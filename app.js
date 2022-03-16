@@ -8,10 +8,14 @@ import { books } from './book-data.js';
 import { renderSnack } from './render-snack.js';
 import { snacks } from './snack-data.js';
 
+import { renderMusician } from './render-musician.js';
+import { musicians } from './music-data.js';
+
 // initialize global state
 const flowerListEl = document.querySelector('.flower-container');
 const bookListEl = document.querySelector('.book-container');
 const snackListEl = document.querySelector('.snack-container');
+const musicianListEl = document.querySelector('.musician-container');
 
 
 for (let flower of flowers) {
@@ -32,6 +36,15 @@ for (let snack of snacks) {
 
     snackListEl.append(snackEl);
 }
+
+for (let musician of musicians) {
+    const musicianEl = renderMusician(musician);
+
+    musicianListEl.append(musicianEl);
+
+}
+
+
 // set event listeners 
   // get user input
   // use user input to update state 

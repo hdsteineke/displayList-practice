@@ -1,4 +1,4 @@
-export function renderMusicians(someMusician) {
+export function renderMusician(someMusician) {
     const musicianEl = document.createElement('div');
     const nameEl = document.createElement('p');
     const albumEl = document.createElement('p');
@@ -13,8 +13,10 @@ export function renderMusicians(someMusician) {
         const songEl = document.createElement('li');
         songEl.textContent = song;
 
-        songsEl.append(song);
+        songsEl.append(songEl);
     }
 
     musicianEl.append(nameEl, albumEl, songsEl);
+
+    return musicianEl;
 }
