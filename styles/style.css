@@ -30,6 +30,7 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
+
 section {
     background-color: var(--color5);
     width: 1000px;
@@ -111,3 +112,47 @@ footer {
     }
 
   }
+
+.flower-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flower {
+    
+    box-shadow: var(--shadow);
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.book {
+    box-shadow: var(--shadow);
+}
+
+.snack {
+    box-shadow: var(--shadow);
+}
+
+.snack-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.musician-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.musician {
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
